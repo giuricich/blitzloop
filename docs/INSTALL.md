@@ -81,6 +81,18 @@ source blitz/bin/activate
 pip install 'git+git://github.com/marcan/blitzloop.git'
 ```
 
+### Fedora
+Last tested 13-05-2022
+```shell
+sudo dnf install ffmpeg-free-devel libass-devel
+git clone https://github.com/mpv-player/mpv
+cd mpv
+./bootstrap.py
+./waf --enable-libmpv-shared configure
+./waf build
+sudo ./waf install
+```
+
 ### Gentoo Linux
 Under Gentoo, this should work (note: `euse` is in gentoolkit):
 
