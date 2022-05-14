@@ -35,7 +35,7 @@ First, install the required OS dependencies:
 Next, install libmpv. You need mpv built with librubberband support. This will
 pull in additional dependencies. If your platform has version 0.21.0 or later
 with rubberband compiled in, you may use that. Otherwise, compile it from
-source:
+source. Consult the [Waf section](https://github.com/mpv-player/mpv#waf "Waf section") in the mpv docs for a full list of dependencies and more help with building:
 
 ```shell
 git clone https://github.com/mpv-player/mpv
